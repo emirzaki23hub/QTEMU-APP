@@ -12,7 +12,4 @@ function App() {
 }
 
 export default App;
-
-{
-  /* // Semua page atau content dapat dipilih dari navbar.js ( berlokasi di folder header) untuk ditampilkan menggunakan react router  */
-}
+  

@@ -14,29 +14,6 @@ function CreateMeetup() {
   const [attendees, setAttendees] = useState("");
   const [past, setPast] = useState(false);
 
-  //   const titleChange = (event) => {
-  //     setTitle(event.target.value);
-  //   };
-
-  //   const dateChange = (event) => {
-  //     setDate(event.target.value);
-  //   };
-  //   const locationChange = (event) => {
-  //     setLocation(event.target.value);
-  //   };
-  //   const memberChange = (event) => {
-  //     setMembers(event.target.value);
-  //   };
-  //   const organizerChange = (event) => {
-  //     setOrganizers(event.target.value);
-  //   };
-  //   const descriptionChange = (event) => {
-  //     setDescription(event.target.value);
-  //   };
-  //   const attendeesChange = (event) => {
-  //     setAttendees(event.target.value);
-  //   };
-
   const postData = () => {
     axios
       .post("https://fierce-wildwood-03231.herokuapp.com/meetups", {
