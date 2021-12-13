@@ -1,0 +1,12 @@
+.menu {
+        color: white;
+        text-decoration: none;
+        padding: 0.5rem 1rem;
+    }
+    
+    .menu:hover {
+        background-color: rgb(168, 147, 147);
+        border-radius: 2px;
+        transition: all 0.2s ease-in-out;
+    
+}

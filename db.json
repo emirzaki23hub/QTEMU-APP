@@ -1,0 +1,18 @@
+{
+  "meetups": [
+    {
+      "id": 1,
+      "title": "Meetup JavaScript",
+      "location": "Menteng, Jakarta",
+      "organizers": "Fiqi Fitransyah",
+      "date": "32 Desember 2021"
+    },
+    {
+      "id": 2,
+      "title": "Meetup Ruby on Rails",
+      "location": "Mampang, Jakarta",
+      "organizers": "Cecep Gorbachep",
+      "date": "32 Desember 2021"
+    }
+  ]
+}

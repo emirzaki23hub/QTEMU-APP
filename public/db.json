@@ -1,0 +1,38 @@
+{
+  "meetups": [
+    {
+      "id": 1,
+      "title": "Meetup JavaScript",
+      "location": "Menteng, Jakarta",
+      "organizers": "Fiqi Fitransyah",
+      "date": "32 Desember 2021"
+    }
+  ],
+  "pastmeetups": [
+    {
+      "id": 2,
+      "date": "32 Desember 2021",
+      "content": "#40 JakartaJS April Meetup with kumparan",
+      "view": "140 views"
+    },
+    {
+      "id": 3,
+      "date": "35 Desember 2022",
+      "content": "#40 JakartaJS April Meetup with kumparan",
+      "view": "141 views"
+    },
+    {
+      "id": 4,
+      "date": "34 Desember 2023",
+      "content": "#42 JakartaJS April Meetup with kumparan",
+      "view": "142 views"
+    },
+    {
+      "id": 5,
+      "date": "36 Desember 2023",
+      "content": "#43 JakartaJS April Meetup with kumparan",
+      "view": "146 views"
+    }
+    
+  ]
+}

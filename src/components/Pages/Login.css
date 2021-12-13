@@ -1,0 +1,16 @@
+.styling {
+  margin-top: 20px;
+  align-items: left;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.item {
+    text-align: left;
+  display: flex;
+  flex-direction: column;
+  margin-left: 250px;
+  margin-right: 250px;
+}
+

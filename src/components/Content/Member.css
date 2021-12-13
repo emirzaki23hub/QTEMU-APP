@@ -1,0 +1,18 @@
+
+.img {
+    float: left;
+    max-width: 10%;
+    
+  }
+.body {
+    padding: 2em;
+    text-align: left;
+    display: inline-block;
+    padding-right: 700px;
+    margin-right: 180px;
+ 
+}
+
+.link {
+  float: right;
+}
