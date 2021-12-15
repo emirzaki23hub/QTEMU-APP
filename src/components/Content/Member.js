@@ -28,9 +28,9 @@ function Member() {
           />
           <ReactBoostrap.Card.Text className="body">
           {state.meetups
-          .filter((meetup) => meetup.past === false)
+          .filter((meetup) => meetup.title === 'Meetup 3')
           .map((meetup) => (
-            <div style={{paddingRight:'70px', fontWeight:'bolder'}}>
+            <div style={{paddingRight:'20px', fontWeight:'bolder'}}>
             <h5> Organizers</h5>
             <p style={{ float: "left", paddingRight: "1px" }}>{meetup.organizers} &</p>
             <p style={{ float: "right", paddingLeft: "5px" }}> {meetup.members} Others. </p>

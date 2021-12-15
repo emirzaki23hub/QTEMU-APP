@@ -1,10 +1,10 @@
 import * as ReactBoostrap from "react-bootstrap";
 import React, { useState } from "react";
-import axios from "axios";
-import { useNavigate } from "react-router-dom";
+import { addMeetup } from "../../store/action";
+import { useDispatch } from "react-redux";
 
 function CreateMeetup() {
-  const navigate = useNavigate();
+  const dispatch = useDispatch();
   const [title, setTitle] = useState("");
   const [date, setDate] = useState("");
   const [location, setLocation] = useState("");
@@ -14,21 +14,8 @@ function CreateMeetup() {
   const [attendees, setAttendees] = useState("");
   const [past, setPast] = useState(false);
 
-  const postData = () => {
-    axios
-      .post("https://fierce-wildwood-03231.herokuapp.com/meetups", {
-        title,
-        date,
-        location,
-        members,
-        organizers,
-        description,
-        attendees,
-        past,
-      })
-      .then(() => {
-        navigate("/login");
-      });
+  const postData = (addMeetups) => {
+    dispatch(addMeetup(addMeetups))
   };
 
   return (
